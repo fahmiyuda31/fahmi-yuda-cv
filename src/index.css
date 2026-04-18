@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", "Segoe UI", "Tahoma", "Geneva", "Verdana", sans-serif;
+  --color-primary: #667eea;
+  --color-secondary: #764ba2;
+}
+
+@layer base {
+  body {
+    @apply bg-linear-to-br from-[#667eea] to-[#764ba2] min-h-screen text-gray-800 antialiased;
+  }
+}
+
+@layer components {
+  .cv-container {
+    @apply max-w-3xl mx-auto bg-white rounded-3xl shadow-2xl overflow-hidden my-10;
+  }
+
+  .section-title {
+    @apply text-2xl font-semibold text-primary border-b-2 border-primary pb-2 mb-6 flex items-center gap-3;
+  }
+
+  .experience-item,
+  .education-item {
+    @apply pl-5 border-l-2 border-gray-200 pb-6 last:pb-0;
+  }
+
+  .skill-tag {
+    @apply bg-linear-to-r from-primary to-secondary text-white px-4 py-1.5 rounded-full text-sm font-medium shadow-sm transition-transform hover:scale-105;
+  }
+}
