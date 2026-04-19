@@ -25,10 +25,7 @@ Seorang developer yang berdedikasi dengan fokus pada pengembangan solusi cerdas 
 ### Developer
 **Ravelware Technology** | Saat ini
 
-- Mengembangkan aplikasi end-to-end berdasarkan kebutuhan klien dari tahap inisiasi hingga production.
-- Melakukan pemeliharaan dan optimasi pada aplikasi existing untuk memastikan performa dan stabilitas sistem tetap terjaga.
-- Memimpin tim teknis dalam proses pengembangan aplikasi serta berkolaborasi erat dengan Project Manager dalam perencanaan dan eksekusi proyek.
-- Membangun solusi Fullstack menggunakan ekosistem JavaScript (Web & Mobile) serta pengelolaan database yang efisien.
+[Tambahkan deskripsi pekerjaan Anda di sini - tanggung jawab dan pencapaian utama]
 
 ---
 

@@ -26,12 +26,9 @@ export function ExperienceSection() {
         <h3 className="text-lg font-semibold text-gray-900">Developer</h3>
         <div className="text-primary font-medium my-1">Ravelware Technology</div>
         <div className="text-gray-500 text-sm mb-3">Saat ini</div>
-        <ul className="list-disc list-outside ml-5 space-y-2 text-gray-600 leading-relaxed">
-          <li>Mengembangkan aplikasi end-to-end berdasarkan kebutuhan klien dari tahap inisiasi hingga production.</li>
-          <li>Melakukan pemeliharaan dan optimasi pada aplikasi existing untuk memastikan performa dan stabilitas sistem tetap terjaga.</li>
-          <li>Memimpin tim teknis dalam proses pengembangan aplikasi serta berkolaborasi erat dengan Project Manager dalam perencanaan dan eksekusi proyek.</li>
-          <li>Membangun solusi Fullstack menggunakan ekosistem JavaScript (Web & Mobile) serta pengelolaan database yang efisien.</li>
-        </ul>
+        <p className="text-gray-600 leading-relaxed">
+          [Deskripsi pekerjaan - tanggung jawab dan pencapaian utama]
+        </p>
       </div>
     </section>
   )
